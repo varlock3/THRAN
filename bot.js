@@ -6,13 +6,13 @@ const Discord = require('discord.js'),
 
 client.on('guildMemberAdd', member => {
 
-const mohamed= member.guild.channels.get("498298209706442752");
+const mohamed= member.guild.channels.get("497089759831916546");
 
 if(!mohamed) return;
 
 if(mohamed) {
 
-setTimeout(() => mohamed.send(`**Ꮃelcome Ꭲo Ꮪerver greats**`), 2000)        
+setTimeout(() => mohamed.send(`**Ꮃelcome Ꭲo Ꮪerver Throné**`), 2000)        
 
 }
 
@@ -20,7 +20,7 @@ setTimeout(() => mohamed.send(`**Ꮃelcome Ꭲo Ꮪerver greats**`), 2000)
 
 client.on('ready',async () => {
 
-  client.channels.find(ch => ch.id === "490181348171186196" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "497120866988064778" && ch.type === 'voice').join();
 
 });
 
